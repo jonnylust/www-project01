@@ -1,17 +1,11 @@
-body, html {
-    height: 100%;
+.navbar{
+	margin-bottom:0;
+	border-radius:0;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url(../img/wall.jpg);
-
-    /* Full height */
-    height: 80%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.jumbotron {
+  background: url("../img/wall.jpg") no-repeat;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed; 
 }

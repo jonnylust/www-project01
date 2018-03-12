@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+}
+
+.parallax {
+	/* The image used */
+	background-image: url(../img/wall.jpg);
+
+	/* Full height */
+	height: 500px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.mainTitle {
+	
+	width: 600px;
+	height: 100px;
+	margin: 0 auto;
+	padding-top: 250px;
+	position: relative;
+	background-color: #ff4d4d;
+	border-radius: 3px;
+}
+
+.textElement {
+	opacity: 1;
+	color: #ffffff;
+	font-size: 80px;
+}
+
+.container {
+	width: 600px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: blue;
+}
+
+
+.contentArea1 {
+	height: 500px;
+	background-color: red;
+	font-size: 36px;	
+}
+
+.contentArea2 {
+	height: 500px;
+	background-color: blue;
+	font-size: 36px;	
+}
